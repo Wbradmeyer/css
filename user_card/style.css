@@ -1,0 +1,51 @@
+#container {
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    
+}
+
+#top-box {
+    background-color: teal;
+    height: 100px;
+}
+
+#user-pic {
+    width: 15%;
+    height: auto;
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+#lower-box {
+    border: solid 2px silver;
+    border-top: none;
+    padding: 60px 20px 20px;
+}
+
+h1 {
+    font-size: 28pt;
+    margin: 5px;
+}
+
+#map-marker {
+    width: 1.5%;
+    height: auto;
+    margin: 1px;
+}
+
+#location {
+    font-size: 20pt;
+    margin: 2px 2px 5px;
+}
+
+#gear {
+    width: 2%;
+    height: auto;
+    margin: 1px 1px 0px;
+}
+
+.info {
+    margin: 0px;
+}
