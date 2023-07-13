@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav {
+    width: 100%;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    margin: 10px 10px 10px 0px;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    margin: 10px 270px 10px 10px;
+}
+
+.nav-items {
+    margin: 10px;
+}
+#profile {
+    font-weight: bold;
+}
+
+button {
+    color: white;
+    background-color: lightseagreen;
+    padding: 5px;
+}
+
+.main {
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+}
+
+.left-side {
+    flex: 2;
+    margin: 20px 10px 20px 20px;
+}
+
+.right-side {
+    flex: 1;
+    margin: 20px 20px 20px 10px;
+}
+
+.user-card {
+    height: 340px;
+}
+
+.card-top {
+    background-color: lightseagreen;
+    width: auto;
+    height: 100px;
+}
+
+#jane-pic {
+    border-radius: 50%;
+    background-color: white;
+    width: 100px;
+    padding: 3px;
+    margin: 45px 20px;
+}
+
+.card-bottom {
+    border: 2px solid silver;
+    border-top: none;
+    padding: 45px 20px 20px;
+}
+
+h2, #location {
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 22pt;
+}
+
+#location {
+    font-size: 18px;
+}
+
+#map-marker {
+    width: 10px;
+}
+
+#gear {
+    width: 15px;
+    margin-top: 15px;
+}
+
+.box-top {
+    background-color: rgb(60, 70, 70);
+    padding: 10px;
+    font-size: 12pt;
+    display: flex;
+    align-items: center;
+}
+
+.box-number {
+    background-color: silver;
+    border-radius: 50%;
+    margin: 5px 10px 5px 5px;
+}
+
+h3 {
+    color: white;
+}
+
+.box-bottom {
+    border: 2px solid silver;
+    border-top: none;
+    padding: 20px;
+}
+
+.line-up1, .line-up2 {
+    display: flex;
+    align-items: center;
+}
+
+.line-up1 {
+    justify-content: space-between;
+}
+
+.pic {
+    border-radius: 50%;
+    width: 35px;
+    margin-right: 5px;
+}
+
+.yes, .no {
+    width: 30px;
+    margin: 5px;
+}
+
+.yes {
+    margin-left: 40px;
+}
+
+.connections {
+    margin-top: 20px;
+}
+
+.view {
+    border: 2px solid silver;
+    border-top: none;
+    padding: 10px 20px;
+}

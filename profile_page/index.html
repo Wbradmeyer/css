@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="nav">
+        <h1>Profile</h1>
+        <ul>
+            <li class="nav-items">Home</li>
+            <li class="nav-items" id="profile">My Profile</li>
+            <li class="nav-items">Find Connections</li>
+        </ul>
+        <button>Sign Out</button>
+    </div>
+    <div class="main">
+        <section class="left-side">
+            <div class="user-card">
+                <div class="card-top">
+                    <img id="jane-pic" src="jane-m.jpg" alt="jane pic">
+                </div>
+                <div class="card-bottom">
+                    <h2>Jane Doe</h2>
+                    <p id="location">
+                        <img id="map-marker" src="map-marker.png" alt="map-marker"> Seattle
+                    </p>
+                    <p>Developer | Engineer | Problem Solver<br>
+                    Master of shadows and the Internet!</p>
+                    <p>
+                        <a href="#" onclick="swapName('h2')">
+                            <img id="gear" src="gear.png" alt="gear"> edit profile
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="education">
+                <h3 class="box-top">Education</h3>
+                <div class="box-bottom">
+                    <p>Coding Dojo - Fullstack Bootcamp</p>
+                    <p>Dec 2019 - Mar 2020</p>
+                    <p>Triple black belt in Python, MERN, and C#...</p>
+                </div>
+            </div>
+        </section>
+        <section class="right-side">
+            <div class="requests">
+                <div class="box-top">
+                    <div class="box-number" id="conn-req">&nbsp;2&nbsp; </div>
+                    <h3>Connection Requests</h3>
+                </div>
+                <div class="box-bottom">
+                    <p class="line-up1" id="todd">
+                        <img class="pic" src="todd-s.jpg" alt="todd pic">Todd E
+                        <img class="yes" src="accept-circle.png" alt="accept-circle" onclick="answerRequest(true, '#todd')">
+                        <img class="no" src="close-circle.png" alt="close-circle" onclick="answerRequest(false, '#todd')">
+                    </p>
+                    <p class="line-up1" id="phil">
+                        <img class="pic" src="phil-s.jpg" alt="phil pic">Phil K
+                        <img class="yes" src="accept-circle.png" alt="accept-circle" onclick="answerRequest(true, '#phil')">
+                        <img class="no" src="close-circle.png" alt="close-circle" onclick="answerRequest(false, '#phil')">
+                    </p>
+                </div>
+            </div>
+            <div class="connections">
+                <div class="box-top">
+                    <div class="box-number" id="your-conn">&nbsp; 418 &nbsp;</div>
+                    <h3>Your Connections</h3>
+                </div>
+                <div class="box-bottom">
+                    <p class="line-up2"><img class="pic" src="adrien-s.jpg" alt="adrien pic">Adrien D</p>
+                    <p class="line-up2"><img class="pic" src="anne-s.jpg" alt="anne pic">Anne J</p>
+                    <p class="line-up2"><img class="pic" src="alayne-s.jpg" alt="alayne pic">Alayne T</p>
+                    <p class="line-up2"><img class="pic" src="arry-s.jpg" alt="arry pic">Arry Y</p>
+                </div>
+                <div class="view">
+                    <a href="#">View More</a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
